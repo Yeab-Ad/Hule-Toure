@@ -1,0 +1,338 @@
+/** @format */
+
+@charset "utf-8";
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  width: 100%;
+  height: 62px;
+  /* box-shadow: 0 1px 37px rgb(0 0 0 / 73%);
+ */
+  transition: all 0.3s ease-in-out;
+  z-index: 99;
+  position: fixed;
+  /* top: 18px;
+  left: 2%; */
+  /* border-radius: 9px; */
+  top: 4.5%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  background: #ffffff85;
+}
+.navbar-fixed-top {
+  box-shadow: 0 1px 37px rgb(0 0 0 / 73%);
+  width: 97% !important;
+  top: 6%!important;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(20px);
+}
+.gallery-img {
+  background: url(../img/gall.jpg);
+  height: 601px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.centerr {
+  height: 701px;
+  margin: 0 auto;
+  background: url(../img/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.tour-img {
+  background: url(../img/1.jpg);
+  height: 701px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.galleryImage {
+  height: 601px;
+  margin: 0 auto;
+  background: url(../img/1.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.aboutImage {
+  background: url(../img/5.jpg);
+  height: 701px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+#header .center {
+  max-width: 96%;
+  height: 70px;
+  margin: 0 auto;
+}
+#header .logo {
+  width: 16%;
+  height: 48px;
+  background: url(../img/logsso.png) no-repeat left center;
+  float: left;
+  position: relative;
+  top: 0.7rem;
+  left: -1%;
+  background-size: contain;
+}
+#header .link {
+  width: 57%;
+  /* height: 4px; */
+  line-height: 53px;
+  text-align: center;
+  float: right;
+  margin-top: 10px;
+}
+#header .link li {
+  width: 16%;
+  float: left;
+}
+#header .link a {
+  color: #000;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+#header .link a:hover,
+#header .active a {
+  background-color: #000;
+  border-radius: 7px;
+  width: 74px;
+  color: #fff;
+}
+.gallery-img div h1,
+p,
+h3 {
+  text-align-last: center;
+}
+.gallery-img div h1 {
+  font-size: 55px;
+}
+.centerr div h1,
+p,
+h3 {
+  text-align-last: center;
+}
+.centerr div h1 {
+  font-size: 55px;
+}
+.tour-img div h1,
+p,
+h3 {
+  text-align-last: center;
+}
+.tour-img div h1 {
+  font-size: 55px;
+}
+.aboutImage div h1,
+p,
+h3 {
+  text-align-last: center;
+}
+.aboutImage div h1 {
+  font-size: 55px;
+}
+.banner {
+  position: relative;
+  top: 13rem;
+  color: white;
+}
+.banner button {
+  position: relative;
+  left: 46%;
+  width: 99px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background: black;
+}
+.banner button a {
+  color: white;
+}
+.error {
+  position: relative;
+  top: 4rem;
+  font-size: 20px;
+  color: red;
+}
+.booking_heading {
+  box-shadow: 4px 5px 35px rgb(0 0 10 / 75%);
+  height: 4rem;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  background-image: linear-gradient(to right, #7bff7b, #00fff3);
+  width: 15%;
+  font-size: 28px;
+}
+.booking_profile {
+  font-size: 30px !important;
+}
+.wrapper-main {
+  background: url(../img/gall.jpg);
+  height: 46rem;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+}
+.new_section {
+  background: url(../img/gall.jpg);
+  height: 46rem;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+}
+.Booking {
+  background: url(../img/6.jpg);
+  height: 1029px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: white;
+}
+.center-content {
+  font-size: 20px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  color: white !important;
+}
+.form-style {
+  box-shadow: 10px 9px 21px rgb(0 0 10 / 91%);
+  height: 4rem;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  background-color: #ffffff4f;
+  width: 88%;
+}
+.form-style-Paymentoption {
+  box-shadow: 4px 5px 35px rgb(0 0 10 / 75%);
+  height: 7rem;
+  /* height: 5rem; */
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  background-color: #ffffff4f;
+  width: 88%;
+  position: relative;
+  top: -25px;
+}
+.form-style select {
+  width: 57%;
+  border-radius: 3px;
+  background: #ffffffc4;
+  text-align-last: center;
+}
+.Booking div div h3 {
+  color: red;
+  position: relative;
+  top: -45rem;
+  font-size: 20px;
+}
+.h2tags h2 {
+  position: relative;
+  top: -48.5rem;
+  font-size: 20px;
+  color: #00ffe7;
+  width: 100%;
+  height: 34px;
+  background: #ffffff42;
+  border-radius: 10px;
+  text-align: -webkit-center;
+  left: -6%;
+}
+.center-content form p input {
+  width: 41%;
+  height: 52px;
+  border-radius: 8px;
+  border: none;
+  background-image: linear-gradient(to right, #7bff7b, #00fff3);
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  position: relative;
+  top: -2rem;
+  left: -4%;
+}
+.tabelLayout {
+  position: relative;
+  top: 10rem;
+}
+.addplans {
+  position: absolute;
+  top: 25%;
+  left: 73%;
+}
+#header .login a {
+  background-color: none;
+  border-radius: 7px;
+  width: 74px;
+  color: #000;
+  background-image: linear-gradient(to right, #7bff7b, #00fff3) !important;
+}
+.alert-danger {
+  color: #ffffff !important;
+  background-color: #eb6f7a8c !important;
+  border-color: #ff001b !important;
+  position: relative !important;
+  top: 13rem !important;
+  width: 29% !important;
+  left: 35% !important;
+}
+
+.button_booknow {
+  width: 60%;
+  height: 37px;
+  background-image: linear-gradient(to right, #7bff7b, #00fff3) !important;
+}
+.button_booknow a {
+  color: black;
+  z-index: 100000;
+}
+.button_booknow:hover {
+  transform: scale(1.07);
+}
+
+.button_red {
+  width: 141%;
+  height: 37px;
+  background: #ef4444;
+  border-radius: 6px;
+}
+.button_red a {
+  color: black;
+}
+.button_red:hover {
+  transform: scale(1.07);
+}
+.button_red a:hover {
+  color: #fff;
+}
+.formAdmin {
+  z-index: 123123132;
+  position: relative;
+  /* display: block; */
+  display: flex;
+  top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
